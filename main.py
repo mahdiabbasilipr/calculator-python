@@ -2,11 +2,11 @@ from tkinter import *
 
 #  settings
 root = Tk()
-root.mainloop()
-root.geometry('400x200')
-root.title('calculator')
+# root.mainloop()
+root.geometry("400x200")
+root.title("calculator")
 root.resizable(width=False, height=False)
-color = 'gray'
+color = "gray"
 root.configure(bg=color)
 
 #  frames
@@ -21,3 +21,5 @@ top_third.pack(side=TOP)
 
 top_forth = Frame(root, width=400, height=50, bg='yellow')
 top_forth.pack(side=TOP)
+
+root.mainloop()
